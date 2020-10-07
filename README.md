@@ -3,13 +3,18 @@ Conta le persone in entrata grazie all'utilizzo di un sensore ultrasonico piazza
 Ogni volta che il sensore viene attraversato viene inviato un "1" via mqtt a node red che si occuperà di aggiornare il contatore.</br>
 I dati totali del conteggio sono visualizzati all'interno di una dashboard e inoltre vengono inviati via mqtt a uno schermo OLED collegato ad Arduino.</br></br>
 Il sistema si integra anche con un bot telegram che manda dei messaggi all'avvicinarsi della capienza massima consentita, in modo tale che chi si occupa della sicurezza
-può intervenire sul posto.
+può intervenire sul posto. </br></br>
+Il bot si chiama SmartPCounterProjectIoT
 
 ## Configurazione:
 Per far funzionare il tutto bisogna eseguire la seguente configurazione:
+ * Avviare il bot _SmartPCounterProjectIoT_
+ * Inviare il comando /chatid al bot
+ * Il bot restituirà il tuo chatId
+ * Aprire Node-Red
  * Aprire il nodo Conversation
  * Riempiere il campo _chatId_ con il proprio chatId
- * Avviare con telegram il bot "SmartPCounterProjectIoT"
+ * Ecco ora il bot è Funzionante!
 
 ## Nodi utilizzati
  - node-red-contrib-chatbot
