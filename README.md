@@ -22,7 +22,7 @@ Per far funzionare il tutto bisogna eseguire la seguente configurazione:
  - node-red-contrib-mqtt-broker
  - node-red-dashboard
  
- ## Librerie Arduino Utilizzate
+## Librerie Arduino Utilizzate
  * Grove Ultrasonic Ranger per la gestione del sensore ultrasonico
  * Adafruit SSD1306 per la gestione dello schermo OLED
  * Adafruit GFX per la gestione delle componenti grafiche dell'OLED
