@@ -31,8 +31,7 @@ Per far funzionare il tutto bisogna eseguire la seguente configurazione:
  
 ## Librerie Arduino Utilizzate
  * Grove Ultrasonic Ranger per la gestione del sensore ultrasonico
- * Adafruit SSD1306 per la gestione dello schermo OLED
- * Adafruit GFX per la gestione delle componenti grafiche dell'OLED
+ * u8g2 per la gestione dello schermo OLED
  * WiFiNINA per la gestione dell'antena WiFi
 
 
