@@ -44,7 +44,7 @@ Sono consapevole del fatto che l'applicativo conta solo persone in entrata ma in
 ![](imgFlow.PNG)</br>
 
 
-_last update 07/10/2020_
+_last update 09/10/2020_
 
 
 
